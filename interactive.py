@@ -38,11 +38,11 @@ DEFAULTS = [Folder("Утилиты", ['Utility']),
             Folder("Игры", ['Game']),
             Folder("Графика", ['Graphics']),
             Folder("Интернет", ['Network', 'WebBrowser', 'Email']),
-            Folder("Оффис", ['Office']),
+            Folder("Офис", ['Office']),
             Folder("Разработка", ['Development']),
             Folder("Наука", ['Science']),
             Folder("Звук и видео", ['AudioVideo', 'Audio', 'Video']),
-            Folder("Системные инструменты", ['System', 'Settings']),
+            Folder("Система", ['System', 'Settings']),
             Folder("Универсальный доступ", ['Accessibility']),
             Folder("Wine", ['Wine', 'X-Wine', 'Wine-Programs-Accessories'])]
 
