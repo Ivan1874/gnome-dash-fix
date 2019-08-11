@@ -33,17 +33,17 @@ class Folder:
         os.system(("gsettings set org.gnome.desktop.app-folders.folder:/org/gnome/desktop/app-folders" +
                   "/folders/{}/ categories \"{}\"".format(self.name, self.categoryString)))
 
-DEFAULTS = [Folder("Accessories", ['Utility']),
+DEFAULTS = [Folder("Утилиты", ['Utility']),
             Folder("Chrome Apps", ['chrome-apps']),
-            Folder("Games", ['Game']),
-            Folder("Graphics", ['Graphics']),
-            Folder("Internet", ['Network', 'WebBrowser', 'Email']),
-            Folder("Office", ['Office']),
-            Folder("Programming", ['Development']),
-            Folder("Science", ['Science']),
-            Folder("Sound & Video", ['AudioVideo', 'Audio', 'Video']),
-            Folder("System Tools", ['System', 'Settings']),
-            Folder("Universal Access", ['Accessibility']),
+            Folder("Игры", ['Game']),
+            Folder("Графика", ['Graphics']),
+            Folder("Интернет", ['Network', 'WebBrowser', 'Email']),
+            Folder("Оффис", ['Office']),
+            Folder("Разработка", ['Development']),
+            Folder("Наука", ['Science']),
+            Folder("Звук и видео", ['AudioVideo', 'Audio', 'Video']),
+            Folder("Системные инструменты", ['System', 'Settings']),
+            Folder("Универсальный доступ", ['Accessibility']),
             Folder("Wine", ['Wine', 'X-Wine', 'Wine-Programs-Accessories'])]
 
 def ynQuery(question):
